@@ -37,6 +37,7 @@ main {
 } 
 
 aside {
+    position: relative; 
     width: 20rem;
     border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
     background-color: #eee;
