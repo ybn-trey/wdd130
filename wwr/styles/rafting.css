@@ -51,28 +51,28 @@ a img {
 
 .hero article {
     position: absolute;
-    bottom: 10%; /* Position the article section closer to the bottom of the hero */
-    left: 10%; /* Position the article towards the left side */
+    bottom: 10%;
+    left: 10%; 
     background-color: var(--primary-color);
-    opacity: 0.9; /* Slight opacity for background */
+    opacity: 0.9; 
     padding: 1rem;
     border-radius: 8px;
-    z-index: 1; /* Keep the article behind the h1 */
+    z-index: 1; 
     display: flex;
-    align-items: center; /* Center the contents of the article vertically */
+    align-items: center; 
 }
 
 .hero article img {
     max-width: 150px;
     height: auto;
     background-color: transparent;
-    float: right; /* Float the image to the right */
-    margin-left: 1rem; /* Space between the image and text */
+    float: right; 
+    margin-left: 1rem; 
 }
 
 .hero article p {
     font-size: 1.1rem;
     color: var(--text-color);
-    margin: 0; /* Remove default margin */
-    overflow: hidden; /* Clearfix for the floated image */
+    margin: 0; 
+    overflow: hidden; 
 }
