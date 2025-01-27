@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #f1d302; 
+    --secondary-color: #fdfffc; 
+    --accent1-color: #235789;
+    --accent2-color: #c1292e;
+    --text-color: #333;
+}
+
+main {
+	max-width: 840px; 
+	margin: 3rem;
+} 
+
+h1, h2 {
+    font-family: 'IBM Plex Serif';
+    color: var(--accent2-color);
+}
+
+p {
+    font-family: 'IBM Plex Sans';
+    color: var(--text-color);
+}
+
+a img {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%); 
+    text-align: left;
+    font-size: 2rem;
+    z-index: 2; 
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%; /* Position the article section closer to the bottom of the hero */
+    left: 10%; /* Position the article towards the left side */
+    background-color: var(--primary-color);
+    opacity: 0.9; /* Slight opacity for background */
+    padding: 1rem;
+    border-radius: 8px;
+    z-index: 1; /* Keep the article behind the h1 */
+    display: flex;
+    align-items: center; /* Center the contents of the article vertically */
+}
+
+.hero article img {
+    max-width: 150px;
+    height: auto;
+    background-color: transparent;
+    float: right; /* Float the image to the right */
+    margin-left: 1rem; /* Space between the image and text */
+}
+
+.hero article p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Clearfix for the floated image */
+}
