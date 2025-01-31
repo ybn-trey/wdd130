@@ -1,4 +1,6 @@
 /*This is the Root variables for color scheme */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400&family=IBM+Plex+Serif:wght@100;400&display=swap');
+
 :root {
     --primary-color: #005f73;
     --secondary-color: #0a9396;
