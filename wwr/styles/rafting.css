@@ -30,6 +30,7 @@
     color: var(--primary-color);
   }
   
+  
   /*p {
     line-height: 1.6;
     color: var(--accent-color);
@@ -190,9 +191,13 @@
     color: white;
   }
   
-  .adventures h2 {
+  .adventures h3 {
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--footer-font-color);
   }
   
   .adventure-gallery {
@@ -218,7 +223,7 @@
     margin-top: 10px;
     font-size: 1rem;
     font-weight: bold;
-    color: #f39c12;
+    color: #ecf0f1;
   }
 
   /*section {
